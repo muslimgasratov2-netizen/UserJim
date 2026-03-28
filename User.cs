@@ -22,10 +22,13 @@ class User
 
     public User() : this("Данил Колбасенко", "danyagig@gmail.com", "12345678") {}
 
-
-
-
-
+    public void Say(string msg)
+    {
+        System.Console.WriteLine($"{UserName} : {msg}");
+    }
+    
+        
+    
 }
 
 
