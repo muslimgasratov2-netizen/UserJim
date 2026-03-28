@@ -26,6 +26,9 @@ class User
     {
         System.Console.WriteLine($"{UserName} : {msg}");
     }
+    public override string ToString() => $"Username: {UserName}\nEmail: {Email}\n";
+    
+        
     
         
     
